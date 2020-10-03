@@ -1,0 +1,14 @@
+Corpus	Size	Size_print
+ind_mixed_2012_1M-sentences.txt	15052159	15052159
+ind_news_2008_300K-sentences.txt	5875376	5875376
+ind_news_2009_300K-sentences.txt	5868276	5868276
+ind_news_2010_300K-sentences.txt	5874158	5874158
+ind_news_2011_300K-sentences.txt	5852211	5852211
+ind_news_2012_300K-sentences.txt	5873523	5873523
+ind_newscrawl_2011_1M-sentences.txt	16376426	16376426
+ind_newscrawl_2012_1M-sentences.txt	16916778	16916778
+ind_web_2011_300K-sentences.txt	4472885	4472885
+ind_web_2012_1M-sentences.txt	15844629	15844629
+ind_wikipedia_2016_1M-sentences.txt	16506714	16506714
+ind-id_web_2013_1M-sentences.txt	16406671	16406671
+ind-id_web_2015_3M-sentences.txt	49849398	49849398
