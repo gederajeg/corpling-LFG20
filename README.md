@@ -1,4 +1,4 @@
-# Corpus-based approach meets LFG: Puzzling voice alternation in Indonesian
+# Supplementary materials for "Corpus-based approach meets LFG: Puzzling voice alternation in Indonesian"
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -13,4 +13,4 @@ The pre-print of the proceeding paper (under-review) and slides can be seen belo
 
 Data and code citation (on Open Science Framework [OSF](https://osf.io/ymd2v/)) can be seen below:
 
-> Rajeg, Gede Primahadi Wijaya, I Made Rajeg & I W Arka. 2020. Corpus-based approach meets LFG: Puzzling voice alternation in Indonesian. OSF. doi:10.17605/OSF.IO/YMD2V. osf.io/ymd2v.
+> Rajeg, Gede Primahadi Wijaya, I Made Rajeg & I W Arka. 2020. Supplementary Materials for "Corpus-based approach meets LFG: Puzzling voice alternation in Indonesian". OSF. doi:10.17605/OSF.IO/YMD2V. osf.io/ymd2v.
