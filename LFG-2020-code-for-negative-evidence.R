@@ -9,12 +9,19 @@
 
 mengenai_sense <- c(0, (255+29))
 dikenai_sense <- c(124, (7+8))
-mtx <- rbind(mengenai_sense, dikenai_sense)
-dimnames(mtx) <- list(verbs = c("AV: mengenai", "PASS: dikenai"),
-                      senses = c("impose/subject to", "other sense"))
-chisq.test(mtx, correct = FALSE)
-# zero occurrence of 'impose' in AV mengenai is a significant absence and can point to
-# the negative evidence for this sense to occur in AV.
+mtx <- cbind(mengenai_sense, dikenai_sense)
+dimnames(mtx) <- list(senses = c("impose/subject to", "other senses"),
+                      verbs = c("AV: mengenai", "PASS: dikenai"))
+mtx
+mtx_chisq <- chisq.test(mtx, correct = FALSE) # chi-square
+mtx_chisq
+phi_coefficient <- sqrt(mtx_chisq$statistic/sum(mtx)*(min(dim(mtx))-1))
+round(unname(phi_coefficient), 3) # Phi Coefficient for effect size
 
-fisher.test(mtx, alternative = "less")
-# odds ratio (i.e. 0) from the Fisher exact test indicates that it is highly less likely that 'impose' sense occurs in AV mengenai than in PASS dikenai
+# zero occurrence of 'impose' in AV mengenai is a highly significant absence 
+# and can point to the negative evidence for this sense to occur in AV.
+# see the Google Spreadsheet version of the analysis at http://bit.ly/negative-evidence
+# the Google Spreadsheet includes some descriptive prose.
+
+fisher.test(mtx, alternative = "less")$estimate
+# odds ratio (i.e. 0) from the Fisher exact test indicates that it is highly unlikely that 'impose' sense occurs in AV mengenai than in PASS dikenai
