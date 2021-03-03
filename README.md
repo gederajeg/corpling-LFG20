@@ -9,7 +9,7 @@
 
 The published version of the proceedings paper can be seen below:
 
-> Rajeg, Gede Primahadi W., Rajeg, I Made, & Arka, I Wayan. 2020. Corpus-based approach meets LFG: the puzzling case of voice alternations of *kena*-verbs in Indonesian. In Butt, Miriam, & Toivonen, Ida (Eds.), *Proceedings of the LFG’20 Conference*, On-Line, 307–327. Stanford, CA: CSLI Publications. [abstract and PDF](http://web.stanford.edu/group/cslipublications/cslipublications/LFG/LFG-2020/abstr-rra.shtml)
+> Rajeg, Gede Primahadi W., Rajeg, I Made, & Arka, I Wayan. 2020. Corpus-based approach meets LFG: the puzzling case of voice alternations of *kena*-verbs in Indonesian. In Butt, Miriam, & Toivonen, Ida (Eds.), *Proceedings of the LFG’20 Conference*, On-Line, 307–327. Stanford, CA: CSLI Publications. ([Abstract and PDF](http://web.stanford.edu/group/cslipublications/cslipublications/LFG/LFG-2020/abstr-rra.shtml))
 
 The pre-print of the proceeding paper (under-review) and slides can be seen below:
 
